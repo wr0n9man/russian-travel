@@ -1,0 +1,19 @@
+@import "__head/place__head.css";
+@import "__image/place__image.css";
+@import "__link/place__link.css";
+@import "__main/place__main.css";
+@import "__paragraph/place__paragraph.css";
+@import "__title/place__title.css";
+@import "__url-heading/place__url-heading.css";
+@import "__website/place__website.css";
+
+.place {
+	margin: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 80px;
+}
+
+.place:nth-last-child(1) {
+	margin-bottom: 0;
+}

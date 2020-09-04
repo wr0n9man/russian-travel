@@ -1,0 +1,30 @@
+@import "__title/cover__title.css";
+@import "__subtitle/cover__subtitle.css";
+
+.cover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../../image/cover-trains.jpg);
+	background-size: cover;
+	min-height: 740px;
+	position: relative;
+}
+
+.cover::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background-color: #2a2c2f;
+	opacity: 0.3;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.cover:hover::before {
+	opacity: 0.8;
+}

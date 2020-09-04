@@ -1,0 +1,5 @@
+.place__image {
+	margin: 0;
+	margin-right: 40px;
+	width: calc((100% - 40px) / 2);
+}
