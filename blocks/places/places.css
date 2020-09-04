@@ -1,5 +1,12 @@
 .places {
 	display: flex;
 	flex-direction: column;
-	margin: 92px 0;
+	margin: 92px 100px;
+}
+
+@media screen and (max-width:1024px ){
+   .places{
+      margin-right: 0;
+      margin-left: 0;
+   }
 }

@@ -16,3 +16,17 @@
 	padding-left: 48px;
 	color: #ffffff;
 }
+
+@media screen and (max-width:768px ){
+   .root{
+      padding-right: 24px;
+	padding-left: 24px;
+   }
+}
+
+@media screen and (max-width:320px ){
+   .root{
+      padding-right: 16px;
+	padding-left: 16px;
+   }
+}

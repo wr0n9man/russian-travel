@@ -8,7 +8,7 @@
 @import "__website/place__website.css";
 
 .place {
-	margin: 100px;
+	
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 80px;
