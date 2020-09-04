@@ -2,8 +2,16 @@
 	font-size: 96px;
 	line-height: 104%;
 	text-align: center;
-	width: 720px;
+	min-width: 720px;
 	margin: 0;
 	margin-bottom: 32px;
 	font-weight: bold;
+}
+
+@media screen and (max-width: 320px){
+   .lead__title{
+      min-width: 288px;
+      font-size: 40px;
+   line-height: 110%;
+   }
 }
