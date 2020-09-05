@@ -1,27 +1,28 @@
 .place__image {
    margin: 0;
    margin-right: 40px;
-   min-width: 460px;
+   width: 460px;
    height: 460px;
+   align-self: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
    .place__image {
-      min-width: 440px;
+      width: 440px;
       height: 440px;
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
    .place__image {
-      min-width: 340px;
+      width: 340px;
       height: 340px;
    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
    .place__image {
-      min-width: 320px;
+      width: 320px;
       height: 320px;
       margin-right: -16px;
       margin-left: -16px;

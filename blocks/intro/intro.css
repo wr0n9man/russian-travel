@@ -11,21 +11,21 @@
    min-width: 690px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
    .intro {
       margin-right: 0;
       margin-left: 0;
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
    .intro {
       margin-top: 88px;
       min-width: 720px;
    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
    .intro {
       margin-top: 64px;
       min-width: 288px;
