@@ -31,7 +31,7 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
 	.root {
 		padding-right: 16px;
 		padding-left: 16px;
