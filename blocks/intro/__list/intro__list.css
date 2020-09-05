@@ -1,6 +1,9 @@
 @import "_weight_bold/intro__list_weight_bold.css";
+@import "_weight_normal/intro__list_weight_normal.css";
 
 .intro__list {
+	margin: 0;
+	font-style: normal;
 	padding: 0;
 	font-size: 12px;
 	line-height: 150%;
