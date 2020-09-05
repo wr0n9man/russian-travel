@@ -2,7 +2,7 @@
 @import "__link/footer__link.css";
 @import "__copyright/footer__copyright.css";
 
-.footer{
+.footer {
    display: flex;
    justify-content: space-between;
    margin-top: 92px;
