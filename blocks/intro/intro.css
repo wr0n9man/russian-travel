@@ -3,10 +3,31 @@
 @import "__title/intro__title.css";
 
 .intro {
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-top: 92px;
-	display: flex;
-	flex-direction: column;
-	width: 690px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-top: 92px;
+   display: flex;
+   flex-direction: column;
+   min-width: 690px;
+}
+
+@media screen and (max-width: 1024px) {
+   .intro {
+      margin-right: 0;
+      margin-left: 0;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .intro {
+      margin-top: 88px;
+      min-width: 720px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .intro {
+      margin-top: 64px;
+      min-width: 288px;
+   }
 }

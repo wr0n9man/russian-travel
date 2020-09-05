@@ -2,7 +2,16 @@
 	margin: 0;
 	margin-bottom: 48px;
 	margin-right: 40px;
-	width: 460px;
+	min-width: 460px;
 	font-size: 72px;
 	line-height: 106%;
+	font-weight: 900;
+}
+
+@media screen and (max-width: 320px) {
+	.place__title {
+		min-width: 288px;
+		font-size: 32px;
+		line-height: 109%;
+	}
 }

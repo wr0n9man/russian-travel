@@ -1,14 +1,21 @@
 @font-face {
 	font-family: "Inter";
-	src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+	src: url(../../fonts/Inter-Light.otf);
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: "Inter";
-	src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+	src: url(../../fonts/Inter-ExtraBold.otf);
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url(../../fonts/Inter-Bold.otf);
 	font-weight: bold;
 }
+
 .root {
 	background-color: #2a2c2f;
 	font-family: "Inter";
@@ -17,16 +24,16 @@
 	color: #ffffff;
 }
 
-@media screen and (max-width:768px ){
-   .root{
-      padding-right: 24px;
-	padding-left: 24px;
-   }
+@media screen and (max-width: 768px) {
+	.root {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
 }
 
-@media screen and (max-width:320px ){
-   .root{
-      padding-right: 16px;
-	padding-left: 16px;
-   }
+@media screen and (max-width: 320px) {
+	.root {
+		padding-right: 16px;
+		padding-left: 16px;
+	}
 }

@@ -1,5 +1,30 @@
 .place__image {
-	margin: 0;
-	margin-right: 40px;
-	width: calc((100% - 40px) / 2);
+   margin: 0;
+   margin-right: 40px;
+   min-width: 460px;
+   height: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+   .place__image {
+      min-width: 440px;
+      height: 440px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .place__image {
+      min-width: 340px;
+      height: 340px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .place__image {
+      min-width: 320px;
+      height: 320px;
+      margin-right: -16px;
+      margin-left: -16px;
+      margin-bottom: 32px;
+   }
 }
