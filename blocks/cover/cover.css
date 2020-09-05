@@ -33,23 +33,20 @@
 @media screen and (max-width: 1279px) {
 	.cover {
 		min-height: 640px;
-		margin-right: -48px;
-		margin-left: -48px;
+		position: relative;
 	}
 }
 
 @media screen and (max-width: 1023px) {
 	.cover {
 		min-height: 480px;
-		margin-right: -24px;
-		margin-left: -24px;
+		position: relative;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.cover {
 		min-height: 200px;
-		margin-right: -16px;
-		margin-left: -16px;
+		position: relative;
 	}
 }

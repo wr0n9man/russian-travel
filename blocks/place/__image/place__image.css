@@ -22,11 +22,11 @@
 
 @media screen and (max-width: 767px) {
    .place__image {
+      margin: 0;
       align-self: center;
       width: 320px;
       height: 320px;
-      margin-right: -16px;
-      margin-left: -16px;
+      position: relative;
       margin-bottom: 32px;
    }
 }

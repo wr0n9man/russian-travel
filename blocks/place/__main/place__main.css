@@ -1,6 +1,6 @@
 .place__main {
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-start;
 }
 
 @media screen and (max-width: 767px) {
