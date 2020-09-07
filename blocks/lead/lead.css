@@ -19,14 +19,12 @@
 
 @media screen and (max-width: 1023px) {
    .lead {
-      position: relative;
-      width: calc(100% + 48px);
+      width: calc(100%-48px);
    }
 }
 
 @media screen and (max-width: 767px) {
    .lead {
-      position: relative;
-      width: calc(100% + 32px);
+      width: calc(100%-32px);
    }
 }
