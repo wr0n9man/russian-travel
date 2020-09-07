@@ -11,12 +11,16 @@
 
 @media screen and (max-width: 1023px) {
    .lead__image {
+      position: relative;
+      align-self: center;
       min-height: 480px;
+      width: 768px;
    }
 }
 
 @media screen and (max-width: 767px) {
    .lead__image {
       min-height: 200px;
+      width: 320px;
    }
 }
