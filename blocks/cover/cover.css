@@ -11,6 +11,7 @@
 	background-size: cover;
 	min-height: 740px;
 	position: relative;
+	background-position: center;
 }
 
 .cover::before {
@@ -32,21 +33,27 @@
 
 @media screen and (max-width: 1279px) {
 	.cover {
+		width: calc(100% + 96px);
 		min-height: 640px;
-		position: relative;
+		right: 48px;
+		bottom: 0;
 	}
 }
 
 @media screen and (max-width: 1023px) {
 	.cover {
+		width: calc(100% + 48px);
 		min-height: 480px;
-		position: relative;
+		right: 24px;
+		bottom: 0;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.cover {
+		width: calc(100% + 32px);
 		min-height: 200px;
-		position: relative;
+		right: 16;
+		bottom: 0;
 	}
 }
