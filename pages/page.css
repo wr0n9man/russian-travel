@@ -2,7 +2,6 @@
 @import "../fonts/fonts.css";
 @import "../blocks/root/root.css";
 @import "../blocks/header/header.css";
-@import "../blocks/content/content.css";
 @import "../blocks/header/__lang-link/_ru/header__lang-link_ru.css";
 @import "../blocks/lead/lead.css";
 @import "../blocks/intro/intro.css";
@@ -11,3 +10,8 @@
 @import "../blocks/place/place.css";
 @import "../blocks/cover/cover.css";
 @import "../blocks/footer/footer.css";
+
+.page {
+	max-width: 1280px;
+	margin: auto;
+}

@@ -1,4 +1,3 @@
-@import "_weight_normal/intro__span_weight_normal.css";
-
 .span {
+	font-weight: normal;
 }
